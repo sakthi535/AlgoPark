@@ -1,0 +1,24 @@
+
+*{	
+    font-family: Rubik;
+    font-weight: 300;
+	background-color: rgb(177, 225, 255);
+}
+
+.column{
+    width: 50%;
+    text-align: center;
+    border: 2px solid ;
+}
+
+
+table{
+    text-align: center;
+    width: 100%;
+    /* padding: 25px; */
+    border-spacing: 10px;
+}
+
+tr{
+    border: 1px solid;
+}

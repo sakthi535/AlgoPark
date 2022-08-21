@@ -1,0 +1,55 @@
+
+.LoginForm{
+	width: 600px;
+	border: 5px solid #A66CFF;
+	padding: 50px;
+	margin: 20px auto;
+	text-align: center;
+	color: rgb(166, 108, 255);
+	font-weight: 300;
+	
+}
+
+body{
+	font-family: rubik;
+}
+
+*{
+	
+	background-color: rgb(177, 225, 255);
+}
+
+.inputField{
+	font-size: 16px;
+    display: block;
+    font-family: rubik,sans-serif;
+    width: 100%;
+    padding: 10px 1px;
+    border: 0;
+    border-bottom: 1px solid #747474;
+    outline: none;
+    -webkit-transition: all .2s;
+    transition: all .2s;
+}
+
+button{
+	width: 60%;
+    border: 2px solid #A66CFF;
+    padding: 18px;
+    font-family: rubik,sans-serif;
+    cursor: pointer;
+    text-transform: uppercase;
+    background: #A66CFF;
+    color: #B1E1FF;
+	
+}
+
+button:hover{
+	border: 2px solid #A66CFF;
+	background: #B1E1FF;
+	color: #A66CFF;
+}
+
+p{
+	font-size:20px;
+}

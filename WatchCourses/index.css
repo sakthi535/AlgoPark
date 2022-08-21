@@ -1,0 +1,29 @@
+.video{
+    text-align: center;
+    
+}
+
+
+button{
+	width: 45%;
+    border: 2px solid #B1E1FF;
+    padding: 18px;
+    font-family: rubik,sans-serif;
+    cursor: pointer;
+    text-transform: uppercase;
+    background: #A66CFF;
+    color: #B1E1FF;
+	
+}
+
+
+button:hover{
+	border: 2px solid #A66CFF;
+	background: #B1E1FF;
+	color: #A66CFF;
+}
+
+
+*{
+    background-color: #B1E1FF;
+}
