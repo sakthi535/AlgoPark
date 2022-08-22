@@ -1,209 +1,290 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href='https://fonts.googleapis.com/css?family=Rubik' rel='stylesheet'>
 
-    <link rel="stylesheet" href="./Dashboard.css">
+        <link rel="stylesheet" href="./Dashboard.css">
 
-    <title>Document</title>
-</head>
-<div>
+        <title>Document</title>
+    </head>
+    <div>
 
 
-    <div style="display: flex;">
+        <div class="progress">
 
-        <div class = "column">
-            <h1>Tasks</h1>
-            <table>
+            <h1>Progress</h1>
 
-                <tr>
-                    <th>
-                        Type    
-                    </th>
-                    <th>
-                        Progress
-                    </th>
-                    <th>
-                        Completed
-                    </th>
-                    
-                </tr>
-                <tr>
-                    <td>
-                        Introduction to Python    
-                    </td>
-                    <td>
-                        5
-                    </td>
-                    <td>
-                        <button>
-                            Mark it
-                        </button>
-                    </td>
-                    
-                </tr>
-                <tr>
-                    <td>
-                        Introduction to Python    
-                    </td>
-                    <td>
-                        5
-                    </td>
-                    <td>
-                        <button>
-                            Mark it
-                        </button>
-                    </td>
-                    
-                </tr>
-                <tr>
-                    <td>
-                        Introduction to Python    
-                    </td>
-                    <td>
-                        5
-                    </td>
-                    <td>
-                        <button>
-                            Mark it
-                        </button>
-                    </td>
-                    
-                </tr>
-                <tr>
-                    <td>
-                        Introduction to Python    
-                    </td>
-                    <td>
-                        5
-                    </td>
-                    <td>
-                        <button>
-                            Mark it
-                        </button>
-                    </td>
-                    
-                </tr>
-            </table>
-            
+
+            <div style="display: flex;">
+                <button class="button">
+                    Problems
+                </button>
+
+                <button class="button">
+                    Lectures
+                </button>
+
+                <button class="button">
+                    Challenges
+                </button>
+            </div>
+
+            <div id="content">
+                <div style="display: flex;">
+
+                    <div class="block">
+
+                        <h1 style="font-size: 75px;">76</h1>
+                        Problems Solved
+
+                    </div>
+
+                    <div class="block">
+
+                        <h1 style="font-size: 75px;">76</h1>
+                        Problems in TODO
+
+                    </div>
+
+                    <div class="block">
+
+                        <h1 style="font-size: 75px;">76</h1>
+                        Topics Covered
+
+                    </div>
+                </div>
+
+
+            </div>
+
         </div>
-        <div class = "column">
-            <h1>
-                Leader Board
-            </h1>
 
-            <h3>Courses Completed </h3>
-            <table>
+        <div style="display: flex;padding-top:30px">
+
+            <div class="column">
+                <h1>Tasks</h1>
+                <table>
+
+                    <tr>
+                        <th>
+                            Type
+                        </th>
+                        <th>
+                            Name
+                        </th>
+
+                        <th>
+                            Status
+                        </th>
+                        <th>
+                            Link
+                        </th>
+
+                        <th>
+                            Mark
+                        </th>
+                    </tr>
+                    <tr>
+                        <td>
+                            Lecture
+                        </td>
+                        <td>
+                            Introduction to Python
+                        </td>
+                        <td>
+                            Yet to watch
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            <button class="button-x" >
+                                X
+                            </button>
+                        </td>
+
+                    </tr>
+
+                    <tr style="text-decoration: line-through;">
+                        <td>
+                            Lecture
+                        </td>
+                        <td>
+                            Introduction to Python
+                        </td>
+                        <td>
+                            Yet to watch
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            <button class="button-x">
+                                X
+                            </button>
+                        </td>
+
+                    </tr>
+
+                    <tr>
+                        <td>
+                            Lecture
+                        </td>
+                        <td>
+                            Introduction to Python
+                        </td>
+                        <td>
+                            Yet to watch
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            <button class="button-x">
+                                X
+                            </button>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td>
+                            Problem
+                        </td>
+                        <td>
+                            Leetcode:longest increasing subsequence
+                        </td>
+                        <td>
+                            Yet to solve
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            <button class="button-x">
+                                X
+                            </button>
+                        </td>
+
+                    </tr>
+                </table>
+
+            </div>
+            <div class="column">
+                <h1>
+                    Leader Board
+                </h1>
+
+                <h3>Courses Completed
+                </h3>
+                <table>
 
 
+                    <tr>
+                        <td style="width: 50%;">
+                            Fundamentals
+                        </td>
+                        <td style="width: 30%;">
+                            User#101121
+                        </td>
+                        <td>
+                            59/121
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            AI Courses
+                        </td>
+                        <td>
+                            User#101121
+                        </td>
+                        <td>
+                            59/121
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Core CS Courses
+                        </td>
+                        <td>
+                            User#101121
+                        </td>
+                        <td>
+                            59/121
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Web Development Courses
+                        </td>
+                        <td>
+                            User#101121
+                        </td>
+                        <td>
+                            59/121
+                        </td>
+                    </tr>
 
-                <tr>
-                    <td>
-                        Fundamentals    
-                    </td>
-                    <td>
-                        User#101121
-                    </td>
-                    <td>
-                        59/121
-                    </td>                    
-                </tr>
-                <tr>
-                    <td>
-                        AI Courses    
-                    </td>
-                    <td>
-                        User#101121
-                    </td>
-                    <td>
-                        59/121
-                    </td>                    
-                </tr>
-                <tr>
-                    <td>
-                        Core CS Courses    
-                    </td>
-                    <td>
-                        User#101121
-                    </td>
-                    <td>
-                        59/121
-                    </td>                    
-                </tr>
-                <tr>
-                    <td>
-                        Web Development Courses    
-                    </td>
-                    <td>
-                        User#101121
-                    </td>
-                    <td>
-                        59/121
-                    </td>                    
-                </tr>
+                </table>
 
-            </table>
+                <hr style="width: 90%;">
+                <h3>Contest Leader
+                </h3>
 
-            <hr>
-                <h3>Contest Leader </h3>
+                <table style="padding-bottom: 25px;">
 
-            <table>
+                    <tr>
+                        <td style="width: 50%;">
+                            UserID
+                        </td>
+                        <td>
+                            Rating
+                        </td>
+                    </tr>
+                    <tr>
 
-                <tr>
-                    <td>
-                        UserID
-                    </td>
-                    <td>
-                        Rating
-                    </td>
-                </tr>
-                <tr>
-                    
-                    <td>
-                        User#1121221
-                    </td>
-                    <td>
-                        3921
-                    </td>
-                </tr>
-                <tr>
-                    
-                    <td>
-                        User#1121221
-                    </td>
-                    <td>
-                        3921
-                    </td>
-                </tr>
-                <tr>
-                    
-                    <td>
-                        User#1121221
-                    </td>
-                    <td>
-                        3921
-                    </td>
-                </tr>
-                <tr>
+                        <td>
+                            User#1121221
+                        </td>
+                        <td>
+                            3921
+                        </td>
+                    </tr>
+                    <tr>
 
-                    <td>
-                        User#1121221
-                    </td>
-                    <td>
-                        3921
-                    </td>
-                </tr>
-            </table>
-            
+                        <td>
+                            User#1121221
+                        </td>
+                        <td>
+                            3921
+                        </td>
+                    </tr>
+                    <tr>
+
+                        <td>
+                            User#1121221
+                        </td>
+                        <td>
+                            3921
+                        </td>
+                    </tr>
+                    <tr>
+
+                        <td>
+                            User#1121221
+                        </td>
+                        <td>
+                            3921
+                        </td>
+                    </tr>
+                </table>
+
+            </div>
+
         </div>
-        
+
+
     </div>
-
-
-    
-
-
-</div>
 </html>

@@ -1,0 +1,84 @@
+<!doctype_html>
+
+	<!--
+	Developed by : S Sakthi Saravanan
+					20BCE1354
+
+-->
+
+	<html>
+
+	<head>
+		<link rel="stylesheet" href="./form.css">
+		<link href='https://fonts.googleapis.com/css?family=Rubik' rel='stylesheet'>
+		<script type="text/javascript" src="index.js"></script>
+	</head>
+
+	<body style="font-family: rubik">
+
+		<div class="LoginForm">
+			<h1 style="font-weight: 300;">
+				Login User
+			</h1>
+
+			<p>
+				Registered Users, use your User name and saved password to enter platform
+			</p>
+
+			<form>
+				<center>
+					<table style="width: 60%;">
+
+						<tr>
+							<td>
+								<input type="text" id="userId" name="userId" placeholder="User Id" class="inputField"
+									size="20">
+							</td>
+						</tr>
+
+						<tr>
+							<td>
+								<input type="text" id="name" name="name" placeholder="Name" class="inputField"
+									size="20">
+							</td>
+						</tr>
+
+						<tr>
+							<td>
+								<input type="text" name="email" id="email" placeholder="E-Mail" size="20" class="inputField">
+							</td>
+						</tr>
+						<tr>
+							<td><input type="password" name="Password" id="passw" placeholder="Password"
+									class="inputField" size="20">
+							</td>
+						</tr>
+						<tr>
+							<td><input type="password" name="re-Password" id="rpass" placeholder="Password - Again"
+									class="inputField" size="20">
+							</td>
+						</tr>
+
+						<br><br>
+
+					</table>
+				</center>
+
+				<p>
+					<input type="checkbox" name="rememberMe" value="True">
+					<label> Remember Me</label><br>
+				</p>
+
+				<button type="button" id="Submit" onclick="createAccount(event)"> Register </button>
+
+
+			</form>
+
+
+
+
+		</div>
+
+	</body>
+
+	</html>

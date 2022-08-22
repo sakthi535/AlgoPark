@@ -11,8 +11,8 @@
 	<head>
 		<link rel="stylesheet" href="./form.css">
 		<link href='https://fonts.googleapis.com/css?family=Rubik' rel='stylesheet'>
+		<script type="text/javascript" src="index.js"></script>
 	</head>
-
 	<body style="font-family: rubik">
 
 		<div class="LoginForm">
@@ -24,18 +24,18 @@
 				Registered Users, use your User name and saved password to enter platform
 			</p>
 
-			<form action="Dashboard.html">
+			<form>
 				<center>
 					<table style="width: 60%;">
 
 						<tr>
 							<td>
-								<input type="text" name="name" placeholder="User Name" class="inputField" size="20">
+								<input type="text" id = "userId" name="name" placeholder="User Name" class="inputField" size="20">
 							</td>
 						</tr>
 
 						<tr>
-							<td><input type="password" name="email" placeholder="Password" class="inputField" size="25">
+							<td><input type="password" name="Password" id = "passw" placeholder="Password" class="inputField" size="25">
 							</td>
 						</tr>
 						<br><br>
@@ -48,11 +48,11 @@
 					<label> Remember Me</label><br>
 				</p>
 
-				<button type="submit" value="Submit" name="Submit" class="Submit"> Submit </button>
+				<button type="submit" value="Submit" name="Submit" class="Submit" onclick="validate(event)"> Submit </button>
 
 				<hr>
 
-				<button type="submit" value="Forgot Password" name="Forgot"> Forgot Password </button>
+				<button type="submit" value="Forgot Password" name="Forgot" onclick="redirectRegistration(event)"> Register Now </button>
 			</form>
 
 
