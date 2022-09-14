@@ -4,14 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+	<link href='https://fonts.googleapis.com/css?family=Rubik' rel='stylesheet'>
+    <script src="index.js"></script>
+    
+    <title>AlgoPark</title>
 
     <style>
         .column{
             width: 50%;
             text-align: center;
             border: 2px solid;
-            height: 200px;
+            height: max(auto, 200px);
             padding: 25px;
             font-family: Rubik;
             font-weight: 300;   
@@ -40,7 +43,7 @@
         <div class = "column">
             <h1>Web Development Course</h1>
 
-            <table>
+            <table id = "web">
                 <tr><td>Course 1</td></tr>
                 <tr><td>Course 1</td></tr>
                 <tr><td>Course 1</td></tr>
@@ -50,7 +53,7 @@
         <div class = "column">
             <h1>AI Courses </h1>
 
-            <table>
+            <table id = "ai">
                 <tr><td>Course 1</td></tr>
                 <tr><td>Course 1</td></tr>
                 <tr><td>Course 1</td></tr>
@@ -61,11 +64,11 @@
     <div style="display:flex;">
 
         
-        <div class = "column">
+        <div class = "column" >
             <h1>Fundamentals</h1>
 
 
-            <table>
+            <table id = "fund">
                 <tr><td><a href="">Course 1</a></td></tr>
                 <tr><td>Course 1</td></tr>
                 <tr><td>Course 1</td></tr>
@@ -76,7 +79,7 @@
             <h1>CS Core Subjects</h1>
 
 
-            <table>
+            <table id = "core">
                 <tr><td><a href="CoreCourses/1/index.html" target="_top">Course 1</a></td></tr>
                 <tr><td>Course 1</td></tr>
                 <tr><td>Course 1</td></tr>
