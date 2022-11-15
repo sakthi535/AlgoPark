@@ -1,0 +1,24 @@
+*{
+    background-color: #B1E1FF;
+    font-family: Rubik;
+    font-weight: 300;
+}
+
+h1{
+    text-align: center;
+}
+
+.headRow{
+    font-size: larger;
+}
+
+table{
+    text-align: center;
+    width: 100%;
+    padding: 25px;
+    border-spacing: 10px;
+}
+
+a{
+    text-decoration: none;
+}

@@ -1,0 +1,85 @@
+<!doctype html>
+
+<!--
+	Developed by : S Sakthi Saravanan
+					20BCE1354
+
+-->
+
+<html style="background: #AFB4FF;">
+    <head>
+    <script type="text/javascript" src="./../../content.json"></script>
+    <link href='https://fonts.googleapis.com/css?family=Rubik' rel='stylesheet'>
+    <style>
+        *{
+            font-weight: 300;
+            text-align: center;
+        }
+        table{
+            padding: 25px;
+        }
+
+        button {
+            width: 100%;
+            border: 2px solid #B1E1FF;
+            padding: 18px;
+            font-family: rubik, sans-serif;
+            cursor: pointer;
+            text-transform: uppercase;
+            background: #B1E1FF;
+            color: #A66CFF;
+
+        }
+
+
+        button:hover {
+            border: 2px solid #A66CFF;
+            background: #A66CFF;
+            color: #B1E1FF;
+        }
+    </style>
+
+</head>
+
+<div style="font-family: rubik">
+
+    <h1>Database Management Systems</h1>
+
+    <h3>NPTEL - IITM lectures</h3>
+
+    <table>
+
+        <tr>
+            <td>
+                <a href="lecture.html" target="CourseList"> Week 1 </a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="lecture2.html" target="CourseList" > Week 2 </a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="lecture3.html" target="CourseList" > Week 3 </a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="lecture4.html" target="CourseList"> Week 4 </a>
+            </td>
+
+        </tr>
+
+
+    </table>
+
+
+</div>
+
+    <script>
+        var mydata = JSON.parse(content);
+        console.log(mydata);
+    
+    </script>
+</html>

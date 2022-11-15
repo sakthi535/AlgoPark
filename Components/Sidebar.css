@@ -1,0 +1,12 @@
+
+button{
+	width: 100%;
+    border: none;
+    padding: 18px;
+    font-family: rubik,sans-serif;
+    cursor: pointer;
+    text-transform: uppercase;
+    background: #e8e9ec;
+    color: #777;
+	
+}
